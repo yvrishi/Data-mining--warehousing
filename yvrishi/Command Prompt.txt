@@ -1,0 +1,664 @@
+Microsoft Windows [Version 10.0.26200.9457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ub02-glab-010>
+
+C:\Users\ub02-glab-010>cd path\to\your\project_folder
+The system cannot find the path specified.
+
+C:\Users\ub02-glab-010>cd C:\Users\ub02-glab-010\Documents\MyProject
+The system cannot find the path specified.
+
+C:\Users\ub02-glab-010>dir /s /b "C:\Users\ub02-glab-010\Downloads\billing_notes.md"
+C:\Users\ub02-glab-010\Downloads\data_2\data\billing_notes.md
+
+C:\Users\ub02-glab-010>cd "C:\Users\ub02-glab-010\Downloads\data_2\data"
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 6A4E-09A7
+
+ Directory of C:\Users\ub02-glab-010\Downloads\data_2\data
+
+18-09-2026  12:46    <DIR>          .
+18-09-2026  12:57    <DIR>          ..
+18-09-2026  12:46             5,063 billing_notes.md
+18-09-2026  12:46               808 finance_monthly.csv
+18-09-2026  12:46           436,362 masters.sql
+18-09-2026  12:46    <DIR>          sales
+18-09-2026  12:46    <DIR>          _truth
+               3 File(s)        442,233 bytes
+               4 Dir(s)  419,587,842,048 bytes free
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>notepad docker-compose.yml
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>docker compose up -d
+WARN[0000] C:\Users\ub02-glab-010\Downloads\data_2\data\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>notepad docker-compose.yml
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>docker compose up -d
+WARN[0000] C:\Users\ub02-glab-010\Downloads\data_2\data\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>docker ps
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>start "" "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+The system cannot find the file C:\Program Files\Docker\Docker\Docker Desktop.exe.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>start "" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Docker Desktop.lnk"
+The system cannot find the file C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Docker Desktop.lnk.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>start "" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Docker Desktop.lnk"
+The system cannot find the file C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Docker Desktop.lnk.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>start "" "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+The system cannot find the file C:\Program Files\Docker\Docker\Docker Desktop.exe.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>docker compose up -d
+WARN[0000] C:\Users\ub02-glab-010\Downloads\data_2\data\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+[+] up 3/3
+ ! Image python:3.10-slim Interrupted                                                             1.7s
+ ! Image postgres:15      Interrupted                                                             1.7s
+ ✘ Image minio/minio      Error pull access denied for minio/minio, repository does not ...       1.7s
+Error response from daemon: pull access denied for minio/minio, repository does not exist or may require 'docker login'
+Error response from daemon: No such image: postgres:15
+Error response from daemon: No such image: python:3.10-slim
+
+What's next:
+    Debug this Compose error with Gordon → docker ai "help me fix this compose error"
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>python --version
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>pip install duckdb pandas pyarrow
+'pip' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>notepad process_data.py
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>python process_data.py
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>notepad docker-compose.yml
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>docker compose up -d
+WARN[0000] C:\Users\ub02-glab-010\Downloads\data_2\data\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+[+] up 3/3
+ ! Image postgres:15      Interrupted                                                             1.4s
+ ✘ Image minio/minio      Error pull access denied for minio/minio, repository does not ...       1.4s
+ ! Image python:3.10-slim Interrupted                                                             1.4s
+Error response from daemon: pull access denied for minio/minio, repository does not exist or may require 'docker login'
+Error response from daemon: No such image: python:3.10-slim
+Error response from daemon: No such image: postgres:15
+
+What's next:
+    Debug this Compose error with Gordon → docker ai "help me fix this compose error"
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py --version
+Python 3.13.1
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py -m pip install duckdb pandas pyarrow
+Defaulting to user installation because normal site-packages is not writeable
+Collecting duckdb
+  Downloading duckdb-1.5.5-cp313-cp313-win_amd64.whl.metadata (4.2 kB)
+Collecting pandas
+  Downloading pandas-3.0.6-cp313-cp313-win_amd64.whl.metadata (19 kB)
+Collecting pyarrow
+  Downloading pyarrow-25.0.1-cp313-cp313-win_amd64.whl.metadata (3.0 kB)
+Collecting numpy>=1.26.0 (from pandas)
+  Downloading numpy-2.5.3-cp313-cp313-win_amd64.whl.metadata (6.6 kB)
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting tzdata (from pandas)
+  Downloading tzdata-2026.4-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Downloading duckdb-1.5.5-cp313-cp313-win_amd64.whl (13.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.2/13.2 MB 100.7 MB/s eta 0:00:00
+Downloading pandas-3.0.6-cp313-cp313-win_amd64.whl (9.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.6/9.6 MB 104.2 MB/s eta 0:00:00
+Downloading pyarrow-25.0.1-cp313-cp313-win_amd64.whl (27.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 27.9/27.9 MB 91.2 MB/s eta 0:00:00
+Downloading numpy-2.5.3-cp313-cp313-win_amd64.whl (12.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 97.2 MB/s eta 0:00:00
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading tzdata-2026.4-py2.py3-none-any.whl (347 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: tzdata, six, pyarrow, numpy, duckdb, python-dateutil, pandas
+  WARNING: The scripts f2py.exe and numpy-config.exe are installed in 'C:\Users\ub02-glab-010\AppData\Roaming\Python\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+torchvision 0.26.0 requires pillow!=8.3.*,>=5.3.0, which is not installed.
+Successfully installed duckdb-1.5.5 numpy-2.5.3 pandas-3.0.6 pyarrow-25.0.1 python-dateutil-2.9.0.post0 six-1.17.0 tzdata-2026.4
+
+[notice] A new release of pip is available: 24.3.1 -> 26.2.1
+[notice] To update, run: C:\Program Files\Python313\python.exe -m pip install --upgrade pip
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>notepad init_db.py
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py init_db.py
+Tables loaded into DuckDB successfully:
+[('price_revisions',), ('product_categories',), ('products',), ('stores',)]
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>notepad process_sales.py
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py process_sales.py
+Traceback (most recent call last):
+  File "C:\Users\ub02-glab-010\Downloads\data_2\data\process_sales.py", line 7, in <module>
+    con.execute("""
+    ~~~~~~~~~~~^^^^
+        CREATE TABLE IF NOT EXISTS raw_sales AS
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        SELECT * FROM read_parquet('sales/**/*.parquet', filename=true, union_by_name=true);
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """)
+    ^^^^
+_duckdb.IOException: IO Error: No files found that match the pattern "sales/**/*.parquet"
+
+LINE 5:     SELECT * FROM read_parquet('sales/**/*.parquet', filename=true, union_by_...
+                          ^
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>notepad process_sales.py
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py process_sales.py
+Traceback (most recent call last):
+  File "C:\Users\ub02-glab-010\Downloads\data_2\data\process_sales.py", line 7, in <module>
+    con.execute("""
+    ~~~~~~~~~~~^^^^
+        CREATE TABLE IF NOT EXISTS raw_sales AS
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        SELECT * FROM read_parquet('sales/**/*.parquet', filename=true, union_by_name=true);
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """)
+    ^^^^
+_duckdb.IOException: IO Error: No files found that match the pattern "sales/**/*.parquet"
+
+LINE 5:     SELECT * FROM read_parquet('sales/**/*.parquet', filename=true, union_by_...
+                          ^
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py -c "with open('process_sales.py', 'w') as f: f.write('''import glob, duckdb\ncon = duckdb.connect(database='annapurna.db')\ncsvs = glob.glob('sales/**/*.csv', recursive=True)\nparqs = glob.glob('sales/**/*.parquet', recursive=True)\nprint(f'Found {len(csvs)} CSVs, {len(parqs)} Parquets')\nif csvs:\n    con.execute(\"CREATE TABLE IF NOT EXISTS raw_sales AS SELECT *, filename FROM read_csv_auto('sales/**/*.csv', filename=true, union_by_name=true);\")\nelif parqs:\n    con.execute(\"CREATE TABLE IF NOT EXISTS raw_sales AS SELECT *, filename FROM read_parquet('sales/**/*.parquet', filename=true, union_by_name=true);\")\nprint('Rows:', con.execute('SELECT COUNT(*) FROM raw_sales').fetchone()[0])\ncon.close()\n''')"
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py process_sales.py
+Found 4457 CSVs, 0 Parquets
+Traceback (most recent call last):
+  File "C:\Users\ub02-glab-010\Downloads\data_2\data\process_sales.py", line 7, in <module>
+    con.execute("CREATE TABLE IF NOT EXISTS raw_sales AS SELECT *, filename FROM read_csv_auto('sales/**/*.csv', filename=true, union_by_name=true);")
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_duckdb.ConversionException: Conversion Error: CSV Error on Line: 2
+Original Line: 1704133242,S10/20240101/00001,1,SALE,P106336,456.47,1
+Error when converting column "ts". Could not convert string "1704133242" to 'TIMESTAMP'
+
+Column ts is being converted as type TIMESTAMP
+This type was auto-detected from the CSV file.
+Possible solutions:
+* Override the type for this column manually by setting the type explicitly, e.g., types={'ts': 'VARCHAR'}
+* Set the sample size to a larger value to enable the auto-detection to scan more values, e.g., sample_size=-1
+* Use a COPY statement to automatically derive types from an existing table.
+* Check whether the null string value is set correctly (e.g., nullstr = 'N/A')
+
+  file = sales\SALES_S10_20240101.csv
+  delimiter = , (Auto-Detected)
+  quote = (empty) (Auto-Detected)
+  escape = (empty) (Auto-Detected)
+  new_line = \n (Auto-Detected)
+  header = true (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = (empty) (Auto-Detected)
+  strict_mode = true (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 20480
+  ignore_errors = false
+  all_varchar = 0
+
+
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py -c "with open('process_sales.py', 'w') as f: f.write('''import glob, duckdb\ncon = duckdb.connect(database='annapurna.db')\ncon.execute(\"DROP TABLE IF EXISTS raw_sales;\")\ncon.execute(\"CREATE TABLE raw_sales AS SELECT *, filename FROM read_csv_auto('sales/**/*.csv', filename=true, union_by_name=true, all_varchar=true);\")\nprint('Rows loaded:', con.execute('SELECT COUNT(*) FROM raw_sales').fetchone()[0])\nprint('Sample data:')\nprint(con.execute('SELECT * FROM raw_sales LIMIT 3').fetchdf())\ncon.close()\n''')"
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py process_sales.py
+Rows loaded: 1137585
+Sample data:
+              bill_no line_no  ...                      filename                    filename_1
+0  S01/20240101/00001       1  ...  sales\SALES_S01_20240101.csv  sales\SALES_S01_20240101.csv
+1  S01/20240101/00001       2  ...  sales\SALES_S01_20240101.csv  sales\SALES_S01_20240101.csv
+2  S01/20240101/00001       3  ...  sales\SALES_S01_20240101.csv  sales\SALES_S01_20240101.csv
+
+[3 rows x 14 columns]
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py -c "with open('billing_notes.md', 'r', encoding='utf-8') as f: print(f.read())"
+# Handover notes from the billing vendor (RetailEdge POS)
+
+Whoever picks this up next -- read this before you touch the exports. I am
+leaving the account and nobody here has written this down before.
+
+## The nightly export
+
+Every store's till server writes one file per **trading day** into the shared
+folder at 02:30 local time. The file name is the contract, not the contents:
+
+    SALES_<store_id>_<YYYYMMDD>.<csv|parquet>
+
+The date in the file name is the **business date**. Bills punched between
+midnight and roughly 01:30 belong to the business day that just ended, so you
+will see timestamps inside a file that are on the *following* calendar date.
+Trust the file name. We have never fixed this and finance has never minded.
+
+## Re-sends
+
+If a store phones in a problem, the ops desk re-triggers the export. The
+re-sent file lands next to the original with a suffix:
+
+    SALES_S03_20241014.csv          <- original
+    SALES_S03_20241014__R1.csv      <- re-send
+    SALES_S03_20241014__R2.csv      <- second re-send
+
+Two things to know.
+
+1. Most re-sends are a complete replacement and are byte-identical to the
+   original.
+2. Some are **not complete**. If the till was mid-roll when we re-triggered,
+   the re-send only contains the bills that had been committed at that moment.
+   It is still a valid file, it just has fewer bills in it. I know of at least
+   a few of these in November.
+
+So "take the newest file for each store-day" is wrong. The safe unit is the
+**line**, identified by `(bill_no, line_no)`. `bill_no` already contains the
+store and the business date.
+
+## Line types
+
+One bill produces several rows. `line_type` tells you what a row is.
+
+| line_type  | what it is                                              | counts as revenue? |
+|------------|---------------------------------------------------------|--------------------|
+| `SALE`     | one item on the bill, positive qty                        | yes                |
+| `RETURN`   | one item on a return bill, negative qty                   | yes (it subtracts) |
+| `DISCOUNT` | bill-level discount, qty 1, negative `unit_price`         | yes (it subtracts) |
+| `VOID`     | mirror of an item line on a cancelled bill, negated qty   | yes (it cancels)   |
+| `TAX`      | GST for the whole bill, qty 1                             | **no**             |
+| `TENDER`   | what the customer actually paid: items - discount + tax   | **no**             |
+
+The one that catches everybody: **`TENDER` is the bill total, written as
+another row in the same file.** If you `SUM(qty * unit_price)` over every row
+you will count each bill roughly twice, and you will count the GST as well.
+The finance team does not count GST as revenue.
+
+Cancelled bills are handled by writing the item lines a second time with
+`line_type = 'VOID'` and the quantity negated. So a cancelled bill nets to
+zero if you keep both, and inflates your revenue if you filter out only the
+`VOID` rows and keep the `SALE` rows. Either keep both, or drop every line of
+any `bill_no` that has a `VOID` row. Do not do half of it.
+
+## Product codes
+
+This is the ugly one. In June 2024 merchandising ran a catalogue clean-up and
+**reissued about two dozen product codes that had been retired** to completely
+different products -- in some cases in a different category. The code on the
+bill therefore does not identify the product on its own. You need the code
+**and the date of the sale**, checked against `products.valid_from` /
+`products.valid_to` in PostgreSQL.
+
+If you join on `product_code` alone you will get two master rows back for
+those codes, every sale line of theirs will be duplicated, and half of them
+will be filed under the wrong category.
+
+## Prices
+
+`unit_price` on the export is the price the till actually printed. It is
+usually right. It is not always right -- a till that has not synced picks up
+the previous price list, and we see this on roughly one line in seventy. The
+authoritative price list is `price_revisions` in PostgreSQL, keyed by
+`product_sk` with `effective_from` / `effective_to`. If somebody asks what
+something sold for in March, answer from `price_revisions` as of March, not
+from today's row and not from the printed price.
+
+## File dialects
+
+The three till software generations never got unified.
+
+* Stores S01-S05: comma separated, ISO-8601 timestamps
+  (`2024-10-14T13:45:02`), headers `bill_no,line_no,product_code,qty,unit_price,line_type,ts`.
+* Stores S06-S09: **semicolon** separated, `dd-mm-yyyy HH:MM:SS` timestamps,
+  headers `bill_no;line_no;item_code;quantity;rate;type;txn_time`.
+* Stores S10-S12: comma separated but the file starts with a **UTF-8 BOM**,
+  timestamps are **epoch seconds (UTC)**, and the columns are in a different
+  order.
+
+Some days are written as Parquet instead of CSV. That was an experiment by the
+previous vendor and it was never rolled back or rolled forward.
+
+## Known gap
+
+Pune (S07) lost its till server for three days in July 2024. Those exports do
+not exist and will never exist. Finance has those numbers because the store
+phoned them in.
+
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py -c "import duckdb; con = duckdb.connect('annapurna.db'); print(con.execute('DESCRIBE raw_sales').fetchall()); con.close()"
+[('bill_no', 'VARCHAR', 'YES', None, None, None), ('line_no', 'VARCHAR', 'YES', None, None, None),('product_code', 'VARCHAR', 'YES', None, None, None), ('qty', 'VARCHAR', 'YES', None, None, None),('unit_price', 'VARCHAR', 'YES', None, None, None), ('line_type', 'VARCHAR', 'YES', None, None, None), ('ts', 'VARCHAR', 'YES', None, None, None), ('item_code', 'VARCHAR', 'YES', None, None, None),('quantity', 'VARCHAR', 'YES', None, None, None), ('rate', 'VARCHAR', 'YES', None, None, None), ('type', 'VARCHAR', 'YES', None, None, None), ('txn_time', 'VARCHAR', 'YES', None, None, None), ('filename', 'VARCHAR', 'YES', None, None, None), ('filename_1', 'VARCHAR', 'YES', None, None, None)]
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>notepad harmonize_sales.py
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py harmonize_sales.py
+Harmonized sales row count: 1137585
+
+Sample harmonized rows:
+              bill_no line_no product_code  ...  line_type  resend_rank                      filename
+0  S01/20240101/00001       1      P105757  ...       SALE            0  sales\SALES_S01_20240101.csv
+1  S01/20240101/00001       2      P103035  ...       SALE            0  sales\SALES_S01_20240101.csv
+2  S01/20240101/00001       3          TAX  ...        TAX            0  sales\SALES_S01_20240101.csv
+3  S01/20240101/00001       4       TENDER  ...     TENDER            0  sales\SALES_S01_20240101.csv
+4  S01/20240101/00002       1      P107630  ...       SALE            0  sales\SALES_S01_20240101.csv
+
+[5 rows x 8 columns]
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>notepad deduplicate_sales.py
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py deduplicate_sales.py
+Raw harmonized rows: 1137585
+Deduplicated clean rows: 1120924
+
+Sample clean sales:
+              bill_no line_no product_code  qty  unit_price line_type
+0  S12/20240805/00003       2      P102972  4.0      250.10      SALE
+1  S12/20240805/00003       3      P105855  1.0      123.28      SALE
+2  S12/20240805/00003       4      P106773  5.0      397.71      SALE
+3  S12/20240805/00003       5         DISC  1.0     -427.92  DISCOUNT
+4  S12/20240805/00003       6          TAX  1.0      513.96       TAX
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py -c "import pandas as pd; df = pd.read_csv('finance_monthly.csv'); print(df.head(12))"
+      month   closed_on  revenue_inr                     signed_off_by
+0   2024-01  2024-02-09  38446071.33  A. Krishnan (Finance Controller)
+1   2024-02  2024-03-11  34887085.55  A. Krishnan (Finance Controller)
+2   2024-03  2024-04-09  42457899.09  A. Krishnan (Finance Controller)
+3   2024-04  2024-05-10  37958457.37  A. Krishnan (Finance Controller)
+4   2024-05  2024-06-09  41764716.40  A. Krishnan (Finance Controller)
+5   2024-06  2024-07-10  38987082.82  A. Krishnan (Finance Controller)
+6   2024-07  2024-08-09  40527291.81  A. Krishnan (Finance Controller)
+7   2024-08  2024-09-09  45252181.75  A. Krishnan (Finance Controller)
+8   2024-09  2024-10-10  44615037.46  A. Krishnan (Finance Controller)
+9   2024-10  2024-11-09  56359195.92  A. Krishnan (Finance Controller)
+10  2024-11  2024-12-10  51583838.47  A. Krishnan (Finance Controller)
+11  2024-12  2025-01-09  50745209.00  A. Krishnan (Finance Controller)
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py -c "import duckdb; con = duckdb.connect('annapurna.db'); print('Products:', con.execute('DESCRIBE products').fetchall()); print('Price Revisions:', con.execute('DESCRIBE price_revisions').fetchall()); con.close()"
+Products: [('product_sk', 'BIGINT', 'NO', 'PRI', None, None), ('product_code', 'VARCHAR', 'NO', None, None, None), ('product_name', 'VARCHAR', 'NO', None, None, None), ('category_id', 'VARCHAR', 'NO', None, None, None), ('brand', 'VARCHAR', 'YES', None, None, None), ('pack_size', 'VARCHAR', 'YES', None, None, None), ('uom', 'VARCHAR', 'YES', None, None, None), ('valid_from', 'DATE', 'NO', None, None, None), ('valid_to', 'DATE', 'NO', None, "CAST('9999-12-31' AS DATE)", None), ('is_current', 'BOOLEAN', 'NO', None, None, None)]
+Price Revisions: [('revision_id', 'BIGINT', 'NO', 'PRI', None, None), ('product_sk', 'BIGINT', 'NO', None, None, None), ('mrp', 'DECIMAL(12,2)', 'NO', None, None, None), ('selling_price', 'DECIMAL(12,2)', 'NO', None, None, None), ('effective_from', 'DATE', 'NO', None, None, None), ('effective_to', 'DATE', 'NO', None, "CAST('9999-12-31' AS DATE)", None)]
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>notepad reconcile_revenue.py
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py reconcile_revenue.py
+Monthly Revenue Reconciliation:
+Traceback (most recent call last):
+  File "C:\Users\ub02-glab-010\Downloads\data_2\data\reconcile_revenue.py", line 35, in <module>
+    df_recon = con.execute(query).fetchdf()
+               ~~~~~~~~~~~^^^^^^^
+_duckdb.CatalogException: Catalog Error: Table with name finance_monthly does not exist!
+Did you mean "price_revisions"?
+
+LINE 23:     JOIN finance_monthly f ON r.month = f.month
+                  ^
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py -c "with open('reconcile_revenue.py', 'w') as f: f.write('''import duckdb\n\ncon = duckdb.connect(database='annapurna.db')\n\n# Load finance_monthly.csv into DuckDB\ncon.execute(\"CREATE OR REPLACE TABLE finance_monthly AS SELECT * FROM read_csv_auto('finance_monthly.csv');\")\n\nquery = \"\"\"\n    WITH valid_sales AS (\n        SELECT * FROM clean_sales\n        WHERE line_type NOT IN ('TAX', 'TENDER')\n          AND bill_no NOT IN (\n        SELECT DISTINCT bill_no FROM clean_sales WHERE line_type = 'VOID'\n          )\n    ),\n calculated_revenue AS (\n        SELECT \n            SUBSTRING(bill_no, 5, 4) || '-' || SUBSTRING(bill_no, 9, 2) AS month,\n            SUM(qty * unit_price) AS computed_revenue\n        FROM valid_sales\n        GROUP BY 1\n    )\n    SELECT \n        r.month,\n        r.computed_revenue,\n     f.revenue_inr AS finance_revenue,\n        r.computed_revenue - f.revenue_inr AS variance\n FROM calculated_revenue r\n    JOIN finance_monthly f ON r.month = f.month\n    ORDER BY r.month;\n\"\"\"\n\nprint('Monthly Revenue Reconciliation:')\ndf_recon = con.execute(query).fetchdf()\nprint(df_recon)\n\ncon.close()\n''')"
+  File "<string>", line 1
+    with open('reconcile_revenue.py', 'w') as f: f.write('''import duckdb\n\ncon = duckdb.connect(database='annapurna.db')\n\n# Load finance_monthly.csv into DuckDB\ncon.execute("CREATE OR REPLACE TABLE finance_monthly AS SELECT * FROM read_csv_auto('finance_monthly.csv');")\n\nquery = """\n    WITH valid_sales AS (\n        SELECT * FROM clean_sales\n        WHERE line_type NOT IN ('TAX', 'TENDER')\n          AND bill_no NOT IN (\n              SELECT DISTINCT bill_no FROM clean_sales WHERE line_type = 'VOID'\n          )\n    ),\n    calculated_revenue AS (\n        SELECT \n  SUBSTRING(bill_no, 5, 4)
+                                                         ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 1)
+''-'' is not recognized as an internal or external command,
+operable program or batch file.
+'SUBSTRING' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py reconcile_revenue.py
+Monthly Revenue Reconciliation:
+Traceback (most recent call last):
+  File "C:\Users\ub02-glab-010\Downloads\data_2\data\reconcile_revenue.py", line 35, in <module>
+    df_recon = con.execute(query).fetchdf()
+               ~~~~~~~~~~~^^^^^^^
+_duckdb.CatalogException: Catalog Error: Table with name finance_monthly does not exist!
+Did you mean "price_revisions"?
+
+LINE 23:     JOIN finance_monthly f ON r.month = f.month
+                  ^
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>notepad reconcile_revenue.py
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>py reconcile_revenue.py
+Monthly Revenue Reconciliation:
+      month  computed_revenue  finance_revenue   variance
+0   2024-01       38446071.33      38446071.33       0.00
+1   2024-02       34887085.55      34887085.55       0.00
+2   2024-03       41971649.09      42457899.09 -486250.00
+3   2024-04       37958457.37      37958457.37       0.00
+4   2024-05       41764716.40      41764716.40       0.00
+5   2024-06       38987082.82      38987082.82       0.00
+6   2024-07       40295160.11      40527291.81 -232131.70
+7   2024-08       45252181.75      45252181.75       0.00
+8   2024-09       44615037.46      44615037.46       0.00
+9   2024-10       56359195.92      56359195.92       0.00
+10  2024-11       51583838.47      51583838.47       0.00
+11  2024-12       50745259.48      50745209.00      50.48
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 6A4E-09A7
+
+ Directory of C:\Users\ub02-glab-010\Downloads\data_2\data
+
+18-09-2026  14:40    <DIR>          .
+18-09-2026  12:57    <DIR>          ..
+18-09-2026  14:40        74,723,328 annapurna.db
+18-09-2026  12:46             5,063 billing_notes.md
+18-09-2026  14:35             1,152 deduplicate_sales.py
+18-09-2026  13:16               799 docker-compose.yml
+18-09-2026  12:46               808 finance_monthly.csv
+18-09-2026  14:34             1,206 harmonize_sales.py
+18-09-2026  14:26               402 init_db.py
+18-09-2026  12:46           436,362 masters.sql
+18-09-2026  14:24               296 process_data.py
+18-09-2026  14:31               453 process_sales.py
+18-09-2026  14:40             1,210 reconcile_revenue.py
+18-09-2026  12:46    <DIR>          sales
+18-09-2026  12:46    <DIR>          _truth
+              11 File(s)     75,171,079 bytes
+               4 Dir(s)  418,958,073,856 bytes free
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>WITH deduplicated_staging AS (
+'WITH' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    SELECT
+'SELECT' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>        store_id,
+'store_id' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>        bill_number,
+'bill_number' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>        line_number,
+'line_number' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>        product_code,
+'product_code' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>        quantity,
+'quantity' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>        unit_price,
+'unit_price' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>        sale_timestamp,
+'sale_timestamp' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>        ingestion_timestamp,
+'ingestion_timestamp' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>        ROW_NUMBER() OVER (
+'ROW_NUMBER' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>            PARTITION BY store_id, bill_number, line_number, sale_timestamp
+'PARTITION' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>            ORDER BY ingestion_timestamp DESC
+'ORDER' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>        ) AS rn
+C:\Users\ub02-glab-010\Downloads\data_2\data>    FROM raw_sales_staging
+'FROM' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>)
+C:\Users\ub02-glab-010\Downloads\data_2\data>SELECT
+'SELECT' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    store_id,
+'store_id' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    bill_number,
+'bill_number' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    line_number,
+'line_number' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    product_code,
+'product_code' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    quantity,
+'quantity' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    unit_price,
+'unit_price' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    sale_timestamp
+'sale_timestamp' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>FROM deduplicated_staging
+'FROM' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>
+C:\Users\ub02-glab-010\Downloads\data_2\data>.\duckdb.exe
+'.\duckdb.exe' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>CREATE TABLE dim_stores (
+'CREATE' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    store_sk BIGINT PRIMARY KEY,
+'store_sk' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    store_name VARCHAR
+'store_name' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>);
+C:\Users\ub02-glab-010\Downloads\data_2\data>
+C:\Users\ub02-glab-010\Downloads\data_2\data>CREATE TABLE dim_categories (
+'CREATE' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    category_id VARCHAR PRIMARY KEY
+'category_id' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>);
+C:\Users\ub02-glab-010\Downloads\data_2\data>
+C:\Users\ub02-glab-010\Downloads\data_2\data>CREATE TABLE products (
+'CREATE' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    product_sk BIGINT PRIMARY KEY,
+'product_sk' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    product_code VARCHAR,
+'product_code' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    product_name VARCHAR,
+'product_name' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    category_id VARCHAR,
+'category_id' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    FOREIGN KEY (category_id) REFERENCES dim_categories(category_id)
+'FOREIGN' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>);
+C:\Users\ub02-glab-010\Downloads\data_2\data>
+C:\Users\ub02-glab-010\Downloads\data_2\data>CREATE TABLE fact_sales (
+'CREATE' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    sale_id VARCHAR,
+'sale_id' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    store_sk BIGINT,
+'store_sk' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    product_sk BIGINT,
+'product_sk' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    bill_no VARCHAR,
+'bill_no' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    qty DECIMAL,
+'qty' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    unit_price DECIMAL,
+'unit_price' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    ts TIMESTAMP,
+'ts' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    FOREIGN KEY (store_sk) REFERENCES dim_stores(store_sk),
+'FOREIGN' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>    FOREIGN KEY (product_sk) REFERENCES products(product_sk)
+'FOREIGN' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ub02-glab-010\Downloads\data_2\data>);
+C:\Users\ub02-glab-010\Downloads\data_2\data>
